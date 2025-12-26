@@ -1,0 +1,27 @@
+.userDataForm{
+    height: 100vh;
+    background:linear-gradient(#ffffff,#ddd);
+    width: 35%;
+    box-shadow: 0 0 0.5em #444444b7;
+}
+.userDataForm h1{
+    font-family: monospace;
+    font-size: 4rem;
+    text-align: center;
+    color: #333;
+    text-transform: capitalize;
+}
+.userDataForm input{
+    margin-top: 20px;
+    font-family: monospace;
+    padding: 10px;
+}
+.userDataForm button{
+    padding: 10px 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
