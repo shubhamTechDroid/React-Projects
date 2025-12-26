@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at 80% 20%,#fffef6 0 10%,#4bd2ff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.main{
+    height:80vh;
+    width:50vw;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff57;
+    border: 2px solid #fff;
+    box-shadow: 0 0 1em #3333339f;
+}
+.main h1{
+    font-family: monospace;
+}
+.databox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.databox img{
+    height: 100px;
+    background-color: rgba(16, 16, 16, 0.34);
+    width: 100px;
+     border-radius: 20px;
+}
+.databox p{
+   margin-left: 15px;
+   background-color: rgba(16, 16, 16, 0.34);
+   padding: 10px;
+   border-radius: 20px;
+}
