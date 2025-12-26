@@ -1,0 +1,180 @@
+.main_container{
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+.side_cotainer{
+    position: fixed;
+    top:2.5vh;
+    left:20px;
+    box-shadow: 0 0 1em #6767678c;
+    height:95vh;
+    width: 100px;
+    border-radius: 50px;
+}
+.sidetext{
+    position: absolute;
+    bottom: 100px;
+    left:-55px;
+    font-size: 30px;
+    font-family: monospace;
+    transform: rotate(-90deg);
+    letter-spacing: 12px;
+    color: #333333d4;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.plusbtn{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,0%);
+    font-size: 3em;
+    height:60px;
+    width:60px;
+    box-shadow: 0 0 1em #44444484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #222;
+    z-index: 100;
+}
+.colorbox{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,0%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    border: 5px solid #eee;
+    cursor: pointer;
+}
+.addbox.active .colorbox:nth-child(2){
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,0%);
+    background: #ff4d71;
+}
+.addbox.active .colorbox:nth-child(3){
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,0%);
+    background: #00b87dff;
+}
+.addbox.active .colorbox:nth-child(4){
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,0%);
+    background: #c757ff;
+}
+.addbox.active .colorbox:nth-child(5){
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,0%);
+    background: #e2b845ff;
+}
+.addbox.active .colorbox:nth-child(6){
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,0%);
+    background:#00c8ff;
+}
+.mainNoteContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    min-height: 100vh;
+}
+.mainNoteContainer .NoData_text{
+    text-align: center;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 22px;
+    color: #333;
+}
+.mainNoteContainer .mainBox{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    min-height: 90vh;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+.mainNoteContainer .mainBox .notes{
+    height: 300px;
+    width: calc(100%/3.5);
+    margin:20px 20px;
+    box-shadow: 0 0 1em #5555558c;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.notes{
+    background: #fff;
+    padding-bottom: 40px;
+}
+#noteArea{
+    width: 95%;
+    height: 80%;
+    outline: none;
+    border: none;
+    resize: none;
+    margin: 15px 10px;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 21px;
+    color: #fff;
+}
+.editingOption{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+.editingOption ion-icon{
+    background: #fff;
+    color: #222;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+.editingOption ion-icon:hover{
+    color: #fff;
+    background: #222;
+    transition: 0.3s ease;
+}
+.headingApp{
+    font-size: 6em;
+    font-family: monospace;
+    color: #00c8ff;
+    margin-top: 30px;
+}
